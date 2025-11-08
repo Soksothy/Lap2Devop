@@ -73,22 +73,7 @@ The GitHub Actions workflow automatically:
    - Name: `RENDER_DEPLOY_HOOK_URL`
    - Value: Your Render deploy hook URL
 
-### Alternative: Railway Deployment
 
-Add a `railway.json` file:
-```json
-{
-  "$schema": "https://railway.app/railway.schema.json",
-  "build": {
-    "builder": "NIXPACKS"
-  },
-  "deploy": {
-    "startCommand": "yarn start",
-    "restartPolicyType": "ON_FAILURE",
-    "restartPolicyMaxRetries": 10
-  }
-}
-```
 
 ## Project Structure
 
