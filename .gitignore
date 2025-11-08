@@ -18,5 +18,5 @@ Thumbs.db
 .env
 .env.local
 
-SUBMISSION_GUIDE.md
-DEPLOYMENT_FIX.md
+*.md
+!README.md
