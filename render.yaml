@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: lap2devop
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: yarn install
+    startCommand: yarn start
+    envVars:
+      - key: NODE_ENV
+        value: production
