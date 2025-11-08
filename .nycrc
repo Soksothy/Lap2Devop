@@ -1,0 +1,17 @@
+{
+  "all": true,
+  "include": [
+    "*.js"
+  ],
+  "exclude": [
+    "coverage/**",
+    "test/**",
+    "node_modules/**",
+    "eslint.config.js"
+  ],
+  "reporter": [
+    "html",
+    "text",
+    "lcov"
+  ]
+}
