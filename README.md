@@ -73,8 +73,6 @@ The GitHub Actions workflow automatically:
    - Name: `RENDER_DEPLOY_HOOK_URL`
    - Value: Your Render deploy hook URL
 
-
-
 ## Project Structure
 
 ```
