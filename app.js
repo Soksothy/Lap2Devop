@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
   res.send('Hello, GitHub Actions!');
 });
 
-app.get('/devops', (req, res) => {
+app.get('/devopsthebest', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date() });
 });
 
